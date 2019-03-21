@@ -11,4 +11,8 @@ A web application that contains:
   <li>HTML</li>
   <li>CSS</li>
   <li>External Web APIs</li>
+    <ul>
+      <li>https://robohash.org/  - get random robot image</li>
+      <li>https://jsonplaceholder.typicode.com/users/ - simulate getting id, name, email from a database</li>
+    </ul>
 </ul>
