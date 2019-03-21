@@ -1,11 +1,14 @@
 # robots-app
-<h2>Description:</h2>
 A web application that contains:
-- list of robots. Each robot have name,email,image,id
+<ul>
+  <li>list of robots. Each robot have name, email, image, id</li>
+</ul>
 
 <h2>Used techologies:</h2>
-- React
-- ES5+
-- HTML
-- CSS
-- External Web APIs
+<ul>
+  <li>React</li>
+  <li>ES5+</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>External Web APIs</li>
+</ul>
