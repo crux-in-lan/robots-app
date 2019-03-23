@@ -34,9 +34,9 @@ class App extends Component {
       <div className="App">
         <SearchBox/>
         <Scrollable>
-         {/* <ErrorBondry>*/}
+         <ErrorBondry>
             <CardList sampleRobots={sampleRobots}/>
-          {/*</ErrorBondry>*/}
+          </ErrorBondry>
         </Scrollable>
       </div>
     );
