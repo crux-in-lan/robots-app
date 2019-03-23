@@ -4,18 +4,23 @@ class ErrorBondry extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			prop1: val1,
-			prop2: val2
+			hasError: false
 		}
 	}
 	render() {
-		const {par1, par2} = this.props;
-		const {prop1, prop2} = this.state;
-		return (
-			<div>
-				
-			</div>
-		)
+		const {hasError} = this.state;
+		
+			if(hasError) {
+				return (
+					<div>
+						<h2>Component Have Error</h2>
+					</div>
+				)
+			} else 	{
+				return(
+					this.props.children
+				);
+			}
 	}
 }
 
