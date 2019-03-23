@@ -33,11 +33,11 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBox/>
-        {/*<Scrollable>
-          <ErrorBondry>*/}
+        <Scrollable>
+         {/* <ErrorBondry>*/}
             <CardList sampleRobots={sampleRobots}/>
-          {/*</ErrorBondry>
-        </Scrollable>*/}
+          {/*</ErrorBondry>*/}
+        </Scrollable>
       </div>
     );
   }
