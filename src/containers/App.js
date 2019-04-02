@@ -5,7 +5,7 @@ import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
 import Scrollable from '../components/Scrollable';
 import ErrorBondry from './ErrorBondry';
-
+import Footer from '../components/footer';
 
 class App extends Component {
   constructor() {
@@ -42,6 +42,7 @@ class App extends Component {
             <CardList filteredRobots={filteredRobots}/>
           </ErrorBondry>
         </Scrollable>
+        <Footer/>
       </div>
     );
   }
